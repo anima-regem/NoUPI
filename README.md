@@ -9,6 +9,12 @@ Two small Android handoff experiments. No ads, accounts, payment backend, bank p
 
 The two apps install side by side on Android 8.0/API 26 or newer. Initial APKs use **debug signing**, not production release signing. No real payment or USSD session is used in automated testing.
 
+## Download 0.1.0 debug
+
+[Intent APK](https://github.com/anima-regem/NoUPI/releases/download/v0.1.0-debug/NoUPI-Intent-0.1.0-debug.apk) · [USSD APK](https://github.com/anima-regem/NoUPI/releases/download/v0.1.0-debug/NoUPI-USSD-0.1.0-debug.apk) · [Checksums](SHA256SUMS) · [Prerelease notes](https://github.com/anima-regem/NoUPI/releases/tag/v0.1.0-debug)
+
+Both APKs compile and pass unit tests/lint. **Runtime and visual checks remain unverified** because the local emulator could not boot. Read the [test report](docs/TEST_REPORT.md) and [device checklist](docs/DEVICE_TESTING.md) before testing. No real-money transaction or live USSD test is required for the basic checks.
+
 ## Intent behavior
 
 1. Scan a QR code with on-demand camera access, or explicitly paste a UPI link.

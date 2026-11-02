@@ -26,7 +26,7 @@
 - [ ] Inspect screenshots at normal and larger text sizes — **blocked** on functioning emulator or user device.
 - [x] Inspect final manifests and verify signatures/permissions/application IDs.
 - [x] Document reproducible build, dependency licenses, privacy and known limits.
-- [ ] Publish source and verify the remote commit.
+- [x] Publish source and verify the remote commit; publish two APKs as the v0.1.0-debug prerelease and verify asset hashes.
 - [x] Copy two versioned APKs, calculate hashes and create Library attachments.
 - [x] Deliver a device checklist and clearly identify untested real-app/carrier paths.
 
@@ -39,3 +39,7 @@
 - [ ] Review TalkBack, display scaling, long names and Malayalam rendering on physical devices.
 - [ ] Decide whether an NFC-to-Intent variant adds value after the first two variants are tested.
 - [ ] Plan stable release signing, upgrade continuity and distribution separately from debug builds.
+
+## Delivery checkpoint
+
+First two APKs published: [0.1.0 debug](https://github.com/anima-regem/NoUPI/releases/tag/v0.1.0-debug). Build source commit: `234efdc56630ddeeb2f310896de4626a31ca0f04`. GitHub asset SHA-256 values match SHA256SUMS. Both APKs also saved to ChatGPT Library. This checkpoint stops for the user's device feedback; it does not claim a production release or runtime/visual validation.
