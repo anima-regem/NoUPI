@@ -1,0 +1,6 @@
+<resources>
+    <item name="scan_button" type="id"/><item name="link_input" type="id"/>
+    <item name="review_button" type="id"/><item name="pay_button" type="id"/>
+    <item name="amount_input" type="id"/><item name="notice" type="id"/>
+    <item name="dial_button" type="id"/><item name="start_over" type="id"/>
+</resources>

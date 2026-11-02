@@ -1,0 +1,20 @@
+NoUPI Intent
+package: org.noupi.intent
+uses-permission: name='android.permission.CAMERA'
+
+package: name='org.noupi.intent' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+application-label:'NoUPI Intent'
+application-debuggable
+launchable-activity: name='org.noupi.MainActivity'  label='' icon=''
+
+NoUPI USSD
+package: org.noupi.ussd
+
+package: name='org.noupi.ussd' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+application-label:'NoUPI USSD'
+application-debuggable
+launchable-activity: name='org.noupi.MainActivity'  label='' icon=''

@@ -1,0 +1,248 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preIntentDebugBuild UP-TO-DATE
+> Task :app:generateIntentDebugBuildConfig UP-TO-DATE
+> Task :app:generateIntentDebugResValues UP-TO-DATE
+> Task :app:generateIntentDebugResources UP-TO-DATE
+> Task :app:packageIntentDebugResources UP-TO-DATE
+> Task :app:processIntentDebugNavigationResources UP-TO-DATE
+> Task :app:parseIntentDebugLocalResources UP-TO-DATE
+> Task :app:generateIntentDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileIntentDebug UP-TO-DATE
+> Task :app:checkIntentDebugAarMetadata UP-TO-DATE
+> Task :app:mapIntentDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileIntentDebugNavigationResources UP-TO-DATE
+> Task :app:mergeIntentDebugResources UP-TO-DATE
+> Task :app:createIntentDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksIntentDebug UP-TO-DATE
+> Task :app:processIntentDebugMainManifest
+> Task :app:processIntentDebugManifest
+> Task :app:processIntentDebugManifestForPackage
+> Task :app:processIntentDebugResources
+> Task :app:preIntentDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileIntentDebugUnitTest UP-TO-DATE
+> Task :app:preUssdDebugBuild UP-TO-DATE
+> Task :app:generateUssdDebugBuildConfig UP-TO-DATE
+> Task :app:generateUssdDebugResValues UP-TO-DATE
+> Task :app:generateUssdDebugResources UP-TO-DATE
+> Task :app:packageUssdDebugResources UP-TO-DATE
+> Task :app:processUssdDebugNavigationResources UP-TO-DATE
+> Task :app:parseUssdDebugLocalResources UP-TO-DATE
+> Task :app:generateUssdDebugRFile UP-TO-DATE
+> Task :app:compileUssdDebugKotlin
+> Task :app:javaPreCompileUssdDebug UP-TO-DATE
+> Task :app:compileIntentDebugKotlin
+> Task :app:compileUssdDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileIntentDebugJavaWithJavac UP-TO-DATE
+> Task :app:bundleIntentDebugClassesToCompileJar
+> Task :app:bundleIntentDebugClassesToRuntimeJar
+> Task :app:processIntentDebugJavaRes UP-TO-DATE
+> Task :app:checkUssdDebugAarMetadata UP-TO-DATE
+> Task :app:mapUssdDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileUssdDebugNavigationResources UP-TO-DATE
+> Task :app:mergeUssdDebugResources UP-TO-DATE
+> Task :app:createUssdDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksUssdDebug UP-TO-DATE
+> Task :app:processUssdDebugMainManifest UP-TO-DATE
+> Task :app:processUssdDebugManifest UP-TO-DATE
+> Task :app:processUssdDebugManifestForPackage UP-TO-DATE
+> Task :app:processUssdDebugResources UP-TO-DATE
+> Task :app:bundleUssdDebugClassesToRuntimeJar
+> Task :app:bundleUssdDebugClassesToCompileJar
+> Task :app:preUssdDebugUnitTestBuild UP-TO-DATE
+> Task :app:compileIntentDebugUnitTestKotlin
+> Task :app:compileUssdDebugUnitTestKotlin
+> Task :app:compileIntentDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processIntentDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testIntentDebugUnitTest
+> Task :app:javaPreCompileUssdDebugUnitTest UP-TO-DATE
+> Task :app:compileUssdDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processUssdDebugJavaRes UP-TO-DATE
+> Task :app:processUssdDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testUssdDebugUnitTest
+> Task :app:preIntentDebugAndroidTestBuild SKIPPED
+> Task :app:generateIntentDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateIntentDebugAndroidTestLintModel
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:generateIntentDebugLintReportModel
+> Task :app:generateIntentDebugUnitTestLintModel
+> Task :app:lintAnalyzeIntentDebugAndroidTest
+> Task :app:lintAnalyzeIntentDebugUnitTest
+> Task :app:preUssdDebugAndroidTestBuild SKIPPED
+> Task :app:generateUssdDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateUssdDebugAndroidTestLintModel
+> Task :app:generateUssdDebugLintReportModel
+> Task :app:generateUssdDebugUnitTestLintModel
+> Task :app:lintAnalyzeIntentDebug
+
+> Task :app:lintReportIntentDebug
+Wrote HTML report to file://$PROJECT/app/build/reports/lint-results-intentDebug.html
+
+> Task :app:lintIntentDebug
+> Task :app:lintAnalyzeUssdDebug
+> Task :app:lintAnalyzeUssdDebugAndroidTest
+> Task :app:mergeIntentDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateIntentDebugAssets UP-TO-DATE
+> Task :app:mergeIntentDebugAssets UP-TO-DATE
+> Task :app:compressIntentDebugAssets UP-TO-DATE
+> Task :app:checkIntentDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarIntentDebugFileDependencies UP-TO-DATE
+> Task :app:lintAnalyzeUssdDebugUnitTest
+> Task :app:mergeExtDexIntentDebug UP-TO-DATE
+
+> Task :app:lintReportUssdDebug
+Wrote HTML report to file://$PROJECT/app/build/reports/lint-results-ussdDebug.html
+
+> Task :app:dexBuilderIntentDebug
+> Task :app:lintUssdDebug
+> Task :app:mergeIntentDebugGlobalSynthetics UP-TO-DATE
+> Task :app:mergeIntentDebugJavaResource UP-TO-DATE
+> Task :app:mergeLibDexIntentDebug UP-TO-DATE
+> Task :app:mergeIntentDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeIntentDebugNativeLibs NO-SOURCE
+> Task :app:stripIntentDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningIntentDebug UP-TO-DATE
+> Task :app:writeIntentDebugAppMetadata UP-TO-DATE
+> Task :app:writeIntentDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeUssdDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateUssdDebugAssets UP-TO-DATE
+> Task :app:mergeUssdDebugAssets UP-TO-DATE
+> Task :app:compressUssdDebugAssets UP-TO-DATE
+> Task :app:checkUssdDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarUssdDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexUssdDebug UP-TO-DATE
+> Task :app:mergeLibDexUssdDebug UP-TO-DATE
+> Task :app:dexBuilderUssdDebug
+> Task :app:mergeProjectDexIntentDebug
+> Task :app:mergeProjectDexUssdDebug
+> Task :app:mergeUssdDebugGlobalSynthetics UP-TO-DATE
+> Task :app:mergeUssdDebugJavaResource UP-TO-DATE
+> Task :app:mergeUssdDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeUssdDebugNativeLibs NO-SOURCE
+> Task :app:stripUssdDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningUssdDebug UP-TO-DATE
+> Task :app:writeUssdDebugAppMetadata UP-TO-DATE
+> Task :app:writeUssdDebugSigningConfigVersions UP-TO-DATE
+> Task :app:packageUssdDebug
+> Task :app:packageIntentDebug
+> Task :app:createIntentDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleIntentDebug
+> Task :app:createUssdDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleUssdDebug
+> Task :app:processIntentDebugAndroidTestManifest UP-TO-DATE
+> Task :app:generateIntentDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateIntentDebugAndroidTestResources UP-TO-DATE
+> Task :app:packageIntentDebugAndroidTestResources UP-TO-DATE
+> Task :app:processIntentDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseIntentDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateIntentDebugAndroidTestRFile UP-TO-DATE
+> Task :app:javaPreCompileIntentDebugAndroidTest UP-TO-DATE
+> Task :app:generateIntentDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestAssets UP-TO-DATE
+> Task :app:compressIntentDebugAndroidTestAssets UP-TO-DATE
+> Task :app:checkIntentDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarIntentDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexIntentDebugAndroidTest UP-TO-DATE
+> Task :app:compileIntentDebugAndroidTestKotlin
+> Task :app:checkIntentDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :app:compileIntentDebugAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:mapIntentDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileIntentDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestResources UP-TO-DATE
+> Task :app:processIntentDebugAndroidTestResources UP-TO-DATE
+> Task :app:dexBuilderIntentDebugAndroidTest UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:processIntentDebugAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestJavaResource UP-TO-DATE
+> Task :app:mergeLibDexIntentDebugAndroidTest UP-TO-DATE
+> Task :app:mergeProjectDexIntentDebugAndroidTest UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeIntentDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripIntentDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningIntentDebugAndroidTest UP-TO-DATE
+> Task :app:writeIntentDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:packageIntentDebugAndroidTest UP-TO-DATE
+> Task :app:createIntentDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleIntentDebugAndroidTest UP-TO-DATE
+> Task :app:processUssdDebugAndroidTestManifest UP-TO-DATE
+> Task :app:generateUssdDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateUssdDebugAndroidTestResources UP-TO-DATE
+> Task :app:packageUssdDebugAndroidTestResources UP-TO-DATE
+> Task :app:processUssdDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseUssdDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateUssdDebugAndroidTestRFile UP-TO-DATE
+> Task :app:javaPreCompileUssdDebugAndroidTest UP-TO-DATE
+> Task :app:generateUssdDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestAssets UP-TO-DATE
+> Task :app:compressUssdDebugAndroidTestAssets UP-TO-DATE
+> Task :app:checkUssdDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarUssdDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexUssdDebugAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexUssdDebugAndroidTest UP-TO-DATE
+> Task :app:checkUssdDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapUssdDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileUssdDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestResources UP-TO-DATE
+> Task :app:processUssdDebugAndroidTestResources UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripUssdDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningUssdDebugAndroidTest UP-TO-DATE
+> Task :app:writeUssdDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :test-handler:preBuild UP-TO-DATE
+> Task :test-handler:preDebugBuild UP-TO-DATE
+> Task :test-handler:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :test-handler:generateDebugResources UP-TO-DATE
+> Task :test-handler:packageDebugResources UP-TO-DATE
+> Task :test-handler:processDebugNavigationResources UP-TO-DATE
+> Task :test-handler:parseDebugLocalResources UP-TO-DATE
+> Task :test-handler:generateDebugRFile UP-TO-DATE
+> Task :app:compileUssdDebugAndroidTestKotlin
+> Task :app:compileUssdDebugAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderUssdDebugAndroidTest UP-TO-DATE
+> Task :app:mergeProjectDexUssdDebugAndroidTest UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:processUssdDebugAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeUssdDebugAndroidTestJavaResource UP-TO-DATE
+> Task :app:packageUssdDebugAndroidTest UP-TO-DATE
+> Task :app:createUssdDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleUssdDebugAndroidTest UP-TO-DATE
+> Task :test-handler:javaPreCompileDebug UP-TO-DATE
+> Task :test-handler:generateDebugAssets UP-TO-DATE
+> Task :test-handler:mergeDebugAssets UP-TO-DATE
+> Task :test-handler:compressDebugAssets UP-TO-DATE
+> Task :test-handler:desugarDebugFileDependencies UP-TO-DATE
+> Task :test-handler:checkDebugAarMetadata UP-TO-DATE
+> Task :test-handler:mapDebugSourceSetPaths UP-TO-DATE
+> Task :test-handler:compileDebugNavigationResources UP-TO-DATE
+> Task :test-handler:mergeDebugResources UP-TO-DATE
+> Task :test-handler:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :test-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :test-handler:processDebugMainManifest UP-TO-DATE
+> Task :test-handler:processDebugManifest UP-TO-DATE
+> Task :test-handler:processDebugManifestForPackage UP-TO-DATE
+> Task :test-handler:processDebugResources UP-TO-DATE
+> Task :test-handler:checkDebugDuplicateClasses UP-TO-DATE
+> Task :test-handler:mergeExtDexDebug UP-TO-DATE
+> Task :test-handler:mergeLibDexDebug UP-TO-DATE
+> Task :test-handler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :test-handler:mergeDebugNativeLibs NO-SOURCE
+> Task :test-handler:stripDebugDebugSymbols NO-SOURCE
+> Task :test-handler:validateSigningDebug UP-TO-DATE
+> Task :test-handler:writeDebugAppMetadata UP-TO-DATE
+> Task :test-handler:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :test-handler:compileDebugKotlin
+> Task :test-handler:compileDebugJavaWithJavac NO-SOURCE
+> Task :test-handler:dexBuilderDebug UP-TO-DATE
+> Task :test-handler:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :test-handler:processDebugJavaRes UP-TO-DATE
+> Task :test-handler:mergeDebugJavaResource UP-TO-DATE
+> Task :test-handler:mergeProjectDexDebug UP-TO-DATE
+> Task :test-handler:packageDebug UP-TO-DATE
+> Task :test-handler:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :test-handler:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 23s
+201 actionable tasks: 39 executed, 162 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.1/userguide/configuration_cache_enabling.html

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <queries><intent><action android:name="android.intent.action.VIEW"/><data android:scheme="upi" android:host="pay"/></intent></queries>
+    <application><activity android:name="com.journeyapps.barcodescanner.CaptureActivity" tools:node="remove"/><activity android:name=".ScanActivity" android:exported="false"/></application>
+</manifest>

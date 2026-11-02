@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<application android:label="NoUPI test handler" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false">
+<activity android:name=".FakeActivity" android:exported="true">
+<intent-filter><action android:name="android.intent.action.VIEW"/><category android:name="android.intent.category.DEFAULT"/><category android:name="android.intent.category.BROWSABLE"/><data android:scheme="upi" android:host="pay"/></intent-filter>
+</activity></application></manifest>
